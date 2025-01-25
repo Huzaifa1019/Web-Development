@@ -1,0 +1,182 @@
+body{
+    background-color: rgb(39, 39, 39);
+    color: white;
+    padding: 150px;
+    padding-top: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.name{
+    display: flex;
+    column-gap: 10px;
+    flex-direction: column;
+    
+}
+.graphic{
+    font-size: 14px;
+    color: rgb(0, 139, 139);
+}
+.about{
+    text-align: center;
+    color: rgb(0, 139, 139);
+    text-decoration: underline;
+}       
+.graphic:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.box{
+    height: 940px;
+    background-color: rgb(45, 60, 55);
+
+}
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+h3{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 30px;
+    color:rgb(0, 139, 139);
+    
+}
+li{
+    list-style: armenian;
+}
+
+
+.profile{
+    display: flex;
+    row-gap: 10px;
+   
+   
+}
+.pic{
+    height: 200px;
+    width: 200px;
+    box-shadow: 3px 1px 8px rgb(33, 33, 33);
+}
+.pic-div{
+    padding: 30px;
+}
+.inner-text{
+    padding: 20px;
+}
+.nav{
+    background-color: rgb(13, 65, 69);
+    display: flex;
+}
+button{
+    padding: 5px;
+    height: 40px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    border-style: solid;
+    
+}
+button:hover{
+    cursor: pointer;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+}
+
+footer{
+    color: rgb(120, 120, 120);
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.c-me{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(0, 139, 139);
+}
+.contact{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width: 455px) {
+    body {
+        background-color: rgb(39, 39, 39);
+        color: white;
+        padding: 20px;
+        padding-top: 0;
+        font-size: 12px;
+    }
+    .name {
+        display: flex;
+        column-gap: 5px;
+        flex-direction: column;
+    }
+    .graphic {
+        font-size: 12px;
+        color: rgb(0, 139, 139);
+    }
+    .about {
+        text-align: center;
+        font-size: 14px;
+    }
+    .graphic:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .box {
+        height: auto;
+        background-color: rgb(45, 60, 55);
+        padding: 10px;
+    }
+    .contact {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        row-gap: 10px;
+    }
+    h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+    li {
+        list-style: square;
+    }
+    .profile {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .pic {
+        height: 150px;
+        width: 150px;
+        box-shadow: 2px 1px 5px rgb(33, 33, 33);
+    }
+    .pic-div {
+        padding: 10px;
+    }
+    .inner-text {
+        padding: 10px;
+        font-size: 12px;
+    }
+    .nav {
+        background-color: rgb(13, 65, 69);
+        flex-direction: column;
+    }
+    button {
+        padding: 5px;
+        height: 40px;
+        width: 120px;
+        font-size: 12px;
+    }
+    footer {
+        color: rgb(120, 120, 120);
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+    .c-me {
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
